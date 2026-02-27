@@ -1,8 +1,11 @@
-print("=== Personalized Greeting Program ===")
+# Task 2: Create a Personalized Greeting
 
+# Taking user input
 first_name = input("Enter your first name: ")
 last_name = input("Enter your last name: ")
 
-full_name = first_name.strip().title() + " " + last_name.strip().title()
+# Concatenating full name
+full_name = first_name + " " + last_name
 
-print("\nHello,", full_name + "! Welcome to the Python program.")
+# Printing greeting message
+print("Hello,", full_name + "! Welcome to Python programming.")
