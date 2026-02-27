@@ -1,56 +1,64 @@
-# Basic Python Programs – Module 2 Assignment
+# python-task
 
-## Description
+GitHub Repository:  
+https://github.com/jitendrakumawat240101084/python-task
 
-This repository contains Python programs demonstrating basic Python concepts such as user input, arithmetic operations, string handling, and error handling.
+## Module 2: Basic Python Concepts  
+Assignment 1 Submission
+
+This repository contains solutions for Assignment 1 of Module 2.
 
 ---
 
-## Task 1: Basic Mathematical Operations
+## 📌 Task 1: Perform Basic Mathematical Operations
 
-This program:
+### Description:
+This Python program:
+- Takes two numbers as input from the user
+- Performs:
+  - Addition
+  - Subtraction
+  - Multiplication
+  - Division
+- Displays the result of each operation on the screen
 
-* Accepts two numbers from the user
-* Performs:
+File: task1.py
 
-  * Addition
-  * Subtraction
-  * Multiplication
-  * Division
-* Handles division by zero
-* Displays results clearly
+---
 
-Run:
+## 📌 Task 2: Create a Personalized Greeting
 
-```
+### Description:
+This Python program:
+- Takes the user's first name and last name as input
+- Combines them into a full name
+- Prints a personalized greeting message
+
+File: task2.py
+
+---
+
+## 🛠 Concepts Used
+- Variables
+- User Input
+- Data Types (float, string)
+- Arithmetic Operators
+- String Concatenation
+- Print Function
+
+---
+
+## ▶ How to Run
+
+Run the files using:
+
+For Task 1:
 python task1.py
-```
 
----
-
-## Task 2: Personalized Greeting
-
-This program:
-
-* Takes user's first and last name
-* Combines them into a full name
-* Prints a personalized greeting message
-
-Run:
-
-```
+For Task 2:
 python task2.py
-```
 
 ---
 
-## Requirements
-
-* Python 3.x installed
-
----
-
-## Author
-
-Student Name: Jitendra Kumawat
-Course: B.Tech CSE
+## 👨‍💻 Author
+Jitendra Kumawat
