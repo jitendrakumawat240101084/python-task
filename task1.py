@@ -1,23 +1,17 @@
-print("=== Basic Mathematical Operations ===")
+# Task 1: Perform Basic Mathematical Operations
 
-try:
-    num1 = float(input("Enter first number: "))
-    num2 = float(input("Enter second number: "))
+# Taking input from the user
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
 
-    addition = num1 + num2
-    subtraction = num1 - num2
-    multiplication = num1 * num2
+# Performing operations
+addition = num1 + num2
+subtraction = num1 - num2
+multiplication = num1 * num2
+division = num1 / num2
 
-    if num2 != 0:
-        division = num1 / num2
-    else:
-        division = "Undefined (cannot divide by zero)"
-
-    print("\nResults:")
-    print("Addition =", addition)
-    print("Subtraction =", subtraction)
-    print("Multiplication =", multiplication)
-    print("Division =", division)
-
-except ValueError:
-    print("Invalid input! Please enter numeric values only.")
+# Displaying results
+print("Addition:", addition)
+print("Subtraction:", subtraction)
+print("Multiplication:", multiplication)
+print("Division:", division)
